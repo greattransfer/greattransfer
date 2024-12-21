@@ -1,0 +1,57 @@
+// Variables
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #0d6efd !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$green:   #198754 !default;
+
+// The contrast ratio to reach against white, to determine if color changes
+// from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio:   4.5 !default;
+
+// Customize the light and dark text colors for use in our color contrast
+// function.
+$color-contrast-dark:      $black !default;
+$color-contrast-light:     $white !default;
+
+$primary:           $blue !default;
+$primarytext:       color-contrast($primary) !default;
+
+$secondary:         $gray-600 !default;
+$secondarytext:     color-contrast($secondary) !default;
+
+$highlight:         shade-color($primary, 15%) !default;
+$highlightext:      color-contrast($highlight) !default;
+
+$contentbg:         $white !default;
+$subtext:           $secondary !default;
+
+// export vars as CSS vars
+:root {
+	--greattransfer: #{$primary};
+	--greattransfer-green: #{$green};
+	--greattransfer-red: #{$red};
+	--greattransfer-orange: #{$orange};
+	--greattransfer-blue: #{$blue};
+	--greattransfer-primary: #{$primary};
+	--greattransfer-primary-text: #{$primarytext};
+	--greattransfer-secondary: #{$secondary};
+	--greattransfer-secondary-text: #{$secondarytext};
+	--greattransfer-highlight: #{$highlight};
+	--greattransfer-highligh-text: #{$highlightext};
+	--greattransfer-content-bg: #{$contentbg};
+	--greattransfer-subtext: #{$subtext};
+}
