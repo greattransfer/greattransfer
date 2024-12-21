@@ -1,0 +1,436 @@
+# Copyright (C) 2024 GreatTransfer
+# This file is distributed under the same license as the GreatTransfer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: GreatTransfer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/greattransfer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-23T00:36:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: greattransfer\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "GreatTransfer"
+msgstr ""
+
+#. Description of the plugin
+msgid "A content transfer tool to migrate or edit externally. Easily."
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:74
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:75
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:76
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:77
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:78
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:79
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:80
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:81
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:82
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:83
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:106
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:98
+msgid "Import"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-assets.php:107
+msgid "Export"
+msgstr ""
+
+#. translators: Post labels singular_name
+#: includes/admin/class-greattransfer-admin-exporters.php:31
+msgid "%s Export"
+msgstr ""
+
+#. translators: Post labels name (plural)
+#: includes/admin/class-greattransfer-admin-exporters.php:129
+msgid "Insufficient privileges to export %s."
+msgstr ""
+
+#. translators: Post labels singular_name
+#: includes/admin/class-greattransfer-admin-importers.php:32
+msgid "%s Import"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-importers.php:136
+msgid "GreaTransfer posts (CSV)"
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-importers.php:137
+msgid "Import <strong>posts</strong> to your site via a csv file."
+msgstr ""
+
+#: includes/admin/class-greattransfer-admin-importers.php:198
+msgid "Insufficient privileges to import posts."
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:53
+msgid "File path provided for import is invalid."
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:57
+#: includes/import/class-greattransfer-post-csv-importer.php:50
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:88
+msgid "Upload CSV file"
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:93
+msgid "Column mapping"
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:103
+msgid "Done!"
+msgstr ""
+
+#. translators: Post/Taxonomy labels name (plural)
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:129
+msgctxt "name (plural)"
+msgid "Import %s"
+msgstr ""
+
+#. translators: Post labels name (plural)
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:143
+msgid "Import %s from a CSV file"
+msgstr ""
+
+#. translators: Post/Taxonomy labels singular_name
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:156
+msgid "This tool allows you to import (or merge) %s data to your site from a CSV or TXT file."
+msgstr ""
+
+#. translators: Post/Taxonomy labels name (plural)
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:173
+msgid "Update existing %s"
+msgstr ""
+
+#. translators: Post/Taxonomy labels name (plural)
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:186
+msgid "Existing %s that match by ID will be updated."
+msgstr ""
+
+#. translators: Post/Taxonomy labels name (plural)
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:196
+msgid "%s that do not exist will be skipped."
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:476
+msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:480
+msgid "Upload a new file"
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:557
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:634
+#: includes/export/class-greattransfer-post-csv-exporter.php:171
+msgid "ID"
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:558
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:635
+#: includes/export/class-greattransfer-post-csv-exporter.php:172
+msgid "Name"
+msgstr ""
+
+#. translators: %s: Meta name/number
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:570
+#: includes/export/class-greattransfer-post-csv-exporter.php:331
+msgid "Meta: %s"
+msgstr ""
+
+#: includes/admin/importers/class-greattransfer-post-csv-importer-controller.php:636
+msgid "Import as meta data"
+msgstr ""
+
+#: includes/admin/importers/mappings/generic.php:7
+msgid "Title"
+msgstr ""
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:12
+msgid "%s product imported"
+msgid_plural "%s products imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:20
+msgid "%s product updated"
+msgid_plural "%s products updated"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:28
+msgid "%s variations imported"
+msgid_plural "%s variations imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:36
+msgid "%s product was skipped"
+msgid_plural "%s products were skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: products count
+#: includes/admin/importers/views/html-csv-import-done.php:44
+msgid "Failed to import %s product"
+msgid_plural "Failed to import %s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/importers/views/html-csv-import-done.php:50
+msgid "View import log"
+msgstr ""
+
+#. translators: %s: File name
+#: includes/admin/importers/views/html-csv-import-done.php:56
+msgid "File uploaded: %s"
+msgstr ""
+
+#. translators: %d: import results
+#: includes/admin/importers/views/html-csv-import-done.php:62
+msgid "Import complete!"
+msgstr ""
+
+#: includes/admin/importers/views/html-csv-import-done.php:69
+msgid "Product"
+msgstr ""
+
+#: includes/admin/importers/views/html-csv-import-done.php:70
+msgid "Reason for failure"
+msgstr ""
+
+#: includes/admin/importers/views/html-csv-import-done.php:102
+msgid "View products"
+msgstr ""
+
+#: includes/admin/importers/views/html-csv-import-progress.php:7
+msgid "Importing"
+msgstr ""
+
+#: includes/admin/importers/views/html-csv-import-progress.php:8
+msgid "Your products are now being imported..."
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:15
+msgid "Choose a CSV file from your computer:"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:23
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#. translators: %s: maximum upload size
+#: includes/admin/importers/views/html-post-csv-import-form.php:37
+msgid "Maximum size: %s"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:57
+msgid "Alternatively, enter the path to a CSV file on your server:"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:66
+msgid "CSV Delimiter"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:70
+msgid "Use previous column mapping preferences?"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:74
+msgid "Character encoding of the file"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:76
+msgid "Autodetect"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:106
+msgid "Hide advanced options"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:106
+msgid "Show advanced options"
+msgstr ""
+
+#: includes/admin/importers/views/html-post-csv-import-form.php:107
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:24
+msgid "Which columns should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:27
+msgid "Export all columns"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:51
+msgctxt "male"
+msgid "All"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:52
+msgctxt "female"
+msgid "All"
+msgstr ""
+
+#. translators: Taxonomy labels singular_name
+#: includes/admin/views/html-admin-page-post-export.php:64
+msgid "Which %s should be exported?"
+msgstr ""
+
+#. translators: Taxonomy labels singular_name
+#: includes/admin/views/html-admin-page-post-export.php:67
+msgctxt "male"
+msgid "Which %s should be exported?"
+msgstr ""
+
+#. translators: Post/Taxonomy labels all_items
+#: includes/admin/views/html-admin-page-post-export.php:81
+msgctxt "all_items"
+msgid "Export %s"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:124
+msgid "Export custom meta?"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:128
+msgid "Yes, export all custom meta"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-post-export.php:137
+msgid "Generate CSV"
+msgstr ""
+
+#: includes/class-greattransfer.php:19
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/class-greattransfer.php:23
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#. translators: %s is file path.
+#: includes/export/abstract-greattransfer-csv-batch-exporter.php:53
+msgid "Unable to create or write to %s during CSV export. Please check file permissions."
+msgstr ""
+
+#. translators: Post/Taxonomy labels name (plural)
+#: includes/export/class-greattransfer-post-csv-exporter.php:33
+msgctxt "name (plural)"
+msgid "Export %s"
+msgstr ""
+
+#. translators: Post labels name (plural)
+#: includes/export/class-greattransfer-post-csv-exporter.php:47
+msgid "Export %s to a CSV file"
+msgstr ""
+
+#. translators: Post labels all_items
+#: includes/export/class-greattransfer-post-csv-exporter.php:60
+msgid "This tool allows you to generate and download a CSV file containing a list of %s."
+msgstr ""
+
+#: includes/export/class-greattransfer-post-csv-exporter.php:128
+msgctxt "taxonomy slug"
+msgid "State"
+msgstr ""
+
+#: includes/export/class-greattransfer-post-csv-exporter.php:129
+msgctxt "taxonomy slug"
+msgid "Country"
+msgstr ""
+
+#: includes/import/abstract-greattransfer-post-importer.php:67
+msgid "Invalid product type."
+msgstr ""
+
+#. translators: %d: product ID
+#: includes/import/abstract-greattransfer-post-importer.php:91
+msgid "Invalid product ID %d."
+msgstr ""
+
+#: includes/import/abstract-greattransfer-post-importer.php:299
+msgid "Variation cannot be imported: Missing parent ID or parent does not exist yet."
+msgstr ""
+
+#: includes/import/abstract-greattransfer-post-importer.php:303
+msgid "Variation cannot be imported: Parent product cannot be a product variation"
+msgstr ""
+
+#. translators: %s: image URL
+#: includes/import/abstract-greattransfer-post-importer.php:445
+msgid "Not able to attach \"%s\"."
+msgstr ""
+
+#. translators: %s: image URL
+#: includes/import/abstract-greattransfer-post-importer.php:453
+msgid "Unable to use image \"%s\"."
+msgstr ""
+
+#. translators: %d: post ID
+#: includes/import/class-greattransfer-post-csv-importer.php:781
+msgid "ID %d"
+msgstr ""
+
+#: includes/import/class-greattransfer-post-csv-importer.php:813
+msgid "A post with this ID already exists."
+msgstr ""
+
+#: includes/import/class-greattransfer-post-csv-importer.php:825
+msgid "No matching post exists to update."
+msgstr ""
