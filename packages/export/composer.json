@@ -1,0 +1,12 @@
+{
+	"name": "gilbertotavares/greattransfer-export",
+	"type": "greattransfer-library",
+	"autoload": {
+		"psr-4": {
+			"GilbertoTavares\\GreatTransfer\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.4"
+	}
+}

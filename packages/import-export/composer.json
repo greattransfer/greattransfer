@@ -1,0 +1,25 @@
+{
+	"name": "gilbertotavares/greattransfer-import-export",
+	"type": "greattransfer-library",
+	"autoload": {
+		"psr-4": {
+			"GilbertoTavares\\GreatTransfer\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../import"
+		},
+		{
+			"type": "path",
+			"url": "../export"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"gilbertotavares/greattransfer-import": "dev-refactor",
+		"gilbertotavares/greattransfer-export": "dev-refactor"
+	}
+}

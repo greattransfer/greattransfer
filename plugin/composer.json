@@ -1,0 +1,57 @@
+{
+    "name": "greattransfer/plugin",
+	"description": "A content transfer tool to migrate or edit externally. Easily.",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Gilberto Tavares",
+			"email": "camaleaun@gmail.com"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "GreatTransfer\\": "src/"
+        }
+    },
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../packages/constants"
+		},
+		{
+			"type": "path",
+			"url": "../packages/import"
+		},
+		{
+			"type": "path",
+			"url": "../packages/export"
+		},
+		{
+			"type": "path",
+			"url": "../packages/import-export"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+    "require": {
+        "php": ">=7.4",
+        "gilbertotavares/greattransfer-import-export": "dev-refactor"
+    },
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	},
+	"scripts": {
+		"test": [
+			"phpcs"
+		],
+		"fix": [
+			"phpcbf"
+		]
+	}
+}

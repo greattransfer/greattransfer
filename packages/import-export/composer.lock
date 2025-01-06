@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "be093a7ce1912e89db36c598b49a656a",
+    "packages": [
+        {
+            "name": "greattransfer/export",
+            "version": "dev-refactor",
+            "dist": {
+                "type": "path",
+                "url": "../export",
+                "reference": "349995108e3f5cdf1f4df4035a76f485cf76bf40"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GreatTransfer\\Export\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "greattransfer/import",
+            "version": "dev-refactor",
+            "dist": {
+                "type": "path",
+                "url": "../import",
+                "reference": "d102a57ad5f506ecaf2bd15aeb2c3f1251bd4699"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GreatTransfer\\Import\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "greattransfer/export": 20,
+        "greattransfer/import": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

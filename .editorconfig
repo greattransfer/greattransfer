@@ -21,5 +21,5 @@ indent_size = 2
 [{*.txt,wp-config-sample.php}]
 end_of_line = crlf
 
-[assets/css/*.css]
+[*.css]
 insert_final_newline = false

@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "573f638bc2b1b922af502a8e2d63f156",
+    "packages": [
+        {
+            "name": "gilbertotavares/greattransfer-constants",
+            "version": "dev-refactor",
+            "dist": {
+                "type": "path",
+                "url": "../constants",
+                "reference": "3844633c6291e6613242baae462f03685e4aa26b"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "greattransfer-library",
+            "autoload": {
+                "psr-4": {
+                    "GilbertoTavares\\GreatTransfer\\": "src/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "gilbertotavares/greattransfer-constants": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
